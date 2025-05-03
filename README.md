@@ -3,6 +3,7 @@
 Este proyecto es una arquitectura de e-commerce distribuida basada en microservicios, desarrollada con enfoque en escalabilidad, mantenibilidad y separación de responsabilidades. Cada componente del sistema representa una funcionalidad independiente que se comunica con los demás a través de servicios REST y descubrimiento de servicios.
 
 📦 Microservicios del proyecto
+
 api-Gateway: Puerta de entrada principal a todos los servicios. Maneja el enrutamiento, autenticación y balanceo de carga.
 
 config-server: Servidor de configuración centralizada. Permite que los microservicios carguen su configuración desde un repositorio común.
